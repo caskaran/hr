@@ -1,0 +1,4 @@
+Connecting to database specified by database.yml
+  [1m[36m (34.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (38.5ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (1.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
